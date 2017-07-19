@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Car 4 Day - Home Page</title>
+    <meta name="description" content="Empresa de Mobilidade Urbana a desenvolver uma aplicação de Car Sharing">
+    <meta name="keywords" content="car4day, car, day, carsharing, sharing, urban, mobilidade urbana, mobilidade, urbana, urbanmshare,urban share, urban m share, share, car share, urban car, 4 day, car for day, for day, car a day, car day, car4you, 4you, you, for you, car for you">
+    <meta name="author" content="Pedro Pereira, car4you.ciqueis.com">
+    <meta property="og:image" content="http://car4you.ciqueis.com/img/logo_empresa.png" />
+	<meta property="og:description" content="Website da Empresa Car 4 Day. Car 4 Day é o nome de um grupo de trabalho para o desenvolvimento de uma aplicação em C# de Car Sharing. Mobilidade Urbana é um dos temas mais falados actualmete, sendo o mesmo, tema de trabalho, a desenvolver na disciplina de Sistemas de Apoio a Decisão do 3º ano da Licenciatura de Iformática de Gestão e de Engenharia Informática no ISPGaya." />
+	<meta property="og:url"content="http://car4you.ciqueis.com/" />
+	<meta property="og:title" content="Car 4 Day" />
+
+    
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.2.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  </head>
+  <body>
+  	
+  	<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Car 4 Day</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+		            <li><a href="#home" class="page-scroll">Home</a></li>
+		            
+			        <li class="page-scroll" >
+						   <a href="#" data-toggle="dropdown">Quem Somos
+    							<span class="caret"></span></a>
+							    <ul class="dropdown-menu">
+							      	<li><a href="#services">Misão</a></li>
+					          		<li><a href="#services">Visão</a></li>
+					          		<li><a href="#services">Valores</a></li>
+							    </ul>
+							
+		            </li> 
+		            
+				    <!--<li class="dropdown">
+				    	
+				   	<li>
+				   		<a class="dropdown-toggle" data-toggle="dropdown" href="#meet-us" class="page-scroll">Quem Somos</a></li>
+				    	<a class="dropdown-toggle" type="button" data-toggle="dropdown">Quem Somos</a></li>	
+				    	<span class="caret"></span></a>
+					        <ul class="dropdown-menu">
+					          <li><a href="#services">Misão</a></li>
+					          <li><a href="#services">Visão</a></li>
+					          <li><a href="#services">Valores</a></li>
+					        </ul>
+					</li>       
+					</li>-->
+				    <li><a href="#works" class="page-scroll">Produtos</a></li>
+				    <li><a href="#about-us" class="page-scroll">Sobre Nós</a></li>
+				    <li><a href="#contact" class="page-scroll">Contactos</a></li>
+				    <li><a href="https://urbanshare.ciqueis.com/fr/" class="page-scroll" target="_blank">Área Privada</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Off Canvas Navigation
+    ================================================== -->
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas"> <!--- Off Canvas Side Menu -->
+        <div class="close" data-toggle="offcanvas" data-target=".navmenu">
+            <span class="fa fa-close"></span>
+        </div>
+        
+        <div class="add-margin"></div>
+            <!--<ul class="nav navmenu-nav"> <!--- Menu -->
+            <!--<li><a href="#home" class="page-scroll">Home</a></li>
+            <li><a href="#meet-us" class="page-scroll">Quem Somos</a></li>
+            <li><a href="#works" class="page-scroll">Produtos</a></li>
+            <li><a href="#about-us" class="page-scroll">Sobre Nós</a></li>
+            <li><a href="#contact" class="page-scroll">Contactos</a></li>
+            <li><a href="https://urbanshare.ciqueis.com/fr/" class="page-scroll">Área Privada</a></li>
+        </ul><!--- End Menu -->
+   </div> <!--- End Off Canvas Side Menu -->
+
+    <!-- Home Section -->
+    <div id="home">
+        <div class="container text-center">
+            <!-- Navigation -->
+            <!---<nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+            </nav> -->
+
+            <div class="content">
+                <h4 style="color:black">Car 4 Day</h4>
+                <hr>
+                <div class="header-text btn">
+                    <h1><span style="color:black" id="head-title"></span></h1>
+                </div>
+            </div>
+
+            <a href="#meet-us" class="down-btn page-scroll">
+                <span class="fa fa-angle-down"></span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Meet Us Section -->
+    <div id="meet-us">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title">
+                        <h2>Quem Somos</h2>
+                        <hr>
+                    </div>
+                    <p>A Car 4 Day é uma empresa fundada a 18 de Outubro de 2016 no âmbito da cadeira de Sistemas de Apoio à Decisão.</p>
+                    <p>A Car 4 Day tem como propósito desenvolver uma aplicação para facilitar a mobilidade urbana sob o conceito de car sharing.</p>
+                    <p>Apresenta-se com uma equipa dinâmica e astuta que conclui todas as suas metas e objectivos a atempadamente, superando todos os desafios e barreiras que lhe são apresentados no percurso do desenvolvimento da aplicação Urban M Share. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+								<div class="text-center">
+									<img src="img/logo_empresa_peq.png" alt="...">
+			                    	
+			                    </div>
+    
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container text-center">
+            
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                        
+                        <h4>Missão</h4>
+                        <p>A missão da Car 4 Day é desenvolver serviços para melhorar a deslocação de cada indivíduo no seu dia-a-dia, bem como melhorar esse serviço, assegurando a satisfação dos seus clientes, criando valor para os acionistas e satisfação dos seus parceiros. 
+                        	</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                       
+                        <h4>Visão</h4>
+                        <p>Car 4 Day quer ser conhecida por ser uma empresa inovadora e criativa para o mercado, tentando encontrar novas necessidades e melhorias no que diz respeito ao deslocamento/mobilidade urbana.
+                        	</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="service">
+                       
+                        <h4>Valores</h4>
+                        <p>Integridade, cooperação, respeito pelo meio ambiente, responsabilidade social, valorização e respeito pelas pessoas, satisfação do cliente, excelência e simplicidade.  </p>
+						<p> </p>                    
+                    	<p> </p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- Portfolio Section -->
+    <div id="works">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title">
+                        <h2>Produtos</h2>
+                        <hr>
+                    </div>
+                    <p>Desenvolvemos a pensar em si!</p>
+                    <br>
+                    <p>O Urban M Share uma aplicação cliente/servidor, desenvolvida na linguagem de programação C# (C Sharp) para Sistemas Operativos Windows. Desenvolvido sob uma linha visual elegante utilizando a tecnologia de Windows Forms, com o intuito de disponibilizar informação existente de organizações de carsharing e os seus serviços.</p>
+                    <p>O Urban M Share permite a visualização de veículos disponiveis das empresas de carsharing, a possibilidade de alugar o veículo disponivel como calcular o valor final a pagar sob o tempo estimado especulado do aluguer. </p>
+                    <p>A aplicação permite no final do aluger, numa proxima sessão, submeter um comentário sobre a empresa/veículo e serviço prestado como também visualizar comentários submetidos por outros clientes. </p>
+                </div>
+            </div>
+            <div class="space"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="portfolio-item">
+                        <div class="text-center hover-bg">
+                            <a href="http://urbanshare.ciqueis.com" target="_blank">
+                                <div class="hover-text">
+                                    <h5>"Urban M Share"</h5>
+                                    <p class="lead">Urban Car Sharing System for Cities Mobility</p>
+                                    <div class="hline"></div>
+                                </div>
+                                <img src="img/portfolio/01 - urbanMshare_pre_logoxcf_attempt1_no_back.png" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               
+    </div>
+    </div>
+   </div>
+
+    <!-- About Us Section -->
+    <div id="about-us">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="section-title">
+                        <h2>Sobre Nós</h2>
+                        <hr>
+                    </div>
+                    <p>A nossa equipa jovem e dinâmica</p>
+                </div>
+            </div>
+            <div class="space"></div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="team">
+                                <img src="img/team/nuno.jpg" class="img-responsive img-circle" alt="...">
+                                <br>
+                                <h4>Nuno Costa</h4>
+                                <p class="small">Gestor de Projecto</p>
+                                <hr>
+                            	<p class="small">Experiencia em programação e costumer service.</p>
+                            	<p class="small">Pogramador Junior nivel 1 naGraphics Leader</p> 
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            <div class="team">
+                                <img src="img/team/ze.jpg" class="img-responsive img-circle" alt="...">
+                                <br>
+                                <h4>José Guedes</h4>
+                                <p class="small">Analista</p>
+                                <hr>
+                                <p class="small">Experiencia em desenvolvimento web.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-3">
+                            <div class="team">
+                                <img src="img/team/miguel.jpg" class="img-responsive img-circle" alt="...">
+                                <br>
+                                <h4>Miguel Melo</h4>
+                                <p class="small">Programador</p>
+                                <hr>
+                                <p class="small">Experiencia em programação e multimédia.</p>
+                            	<p class="small">Web Developer na Valsousatv.net</p> 
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-3">
+                            <div class="team">
+                                <img src="img/team/pedro.jpg" class="img-responsive img-circle" alt="...">
+                                <br>
+                                <h4>Pedro Pereira</h4>
+                                <p class="small">Secretário</p>
+                                <hr>
+                                <p class="small">Experiencia em backoffice e redes .</p>
+                            	<p class="small">Pogramador Junior nivel 1 na Indra Sistemas</p> 
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+            
+        </div>
+    </div>
+
+       
+
+    <!-- Contacto -->
+    <div id="contact">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contactos</h2>
+                <hr>
+            </div>
+            <div class="space"></div>
+			
+			<div class="row">
+                <div class="col-md-3">
+                    <address>
+                        <strong>Morada</strong><br>
+                        <br>
+                        Avenida dos Descobrimentos 333,<br>
+                        4400-103, Vila Nova de Gaia,<br>
+                        Portugal<br>
+                        <ul class="social">
+                           <!-- <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li> -->
+                          </ul>
+                    </address>
+                </div>
+
+                <div class="col-md-9">
+                    <form autocomplete="off">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Nome">
+                                <input type="text" class="form-control" placeholder="Email">
+                                <!--<input type="text" class="form-control" placeholder="Número">-->
+                            </div>
+                            <div class="col-md-6">
+                                
+                                <input type="text" class="form-control" placeholder="Assunto">
+                            </div>
+                        </div>
+                        <textarea class="form-control" rows="12" placeholder="Mensagem"></textarea>
+                        <div class="text-right">
+                            <a href="mailto:carforyou4@gmail.com" class="btn send-btn">Enviar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    	</div>
+    </div>
+    <nav id="footer">
+        <div class="container">
+             <div class="pull-left">
+                <p>2016 © Car 4 Day. All Rights Reserved.</p>
+            </div>
+            <div class="pull-right"> 
+                <a href="#home" class="page-scroll">Back to Top <span class="fa fa-angle-up"></span></a>
+            </div>
+        </div>
+    </nav>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jasny-bootstrap.min.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+      $(function(){
+          $("#head-title").typed({
+            strings: ["Bem-vindo a Car 4 Day^1000", "Explore os nossos serviços^1000" ,"Urban M Share é para si^1000"],
+            typeSpeed: 100,
+            loop: true,
+            startDelay: 100
+          });
+      });
+    </script>
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
