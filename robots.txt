@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://komodoro.github.io/sitemap.xml
